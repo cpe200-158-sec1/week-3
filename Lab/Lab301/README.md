@@ -23,8 +23,12 @@ many many operators need to be overloaded!!!
 ## Question?
 1. Is the number of Fraction objects equal to the 'new' keywords used
    in the 'main' methods? How come?
-2. Are the result, r3 and r7, in case#1 and case#2 the same? Why?
+   : No,it is not. it come from New in operator + , - ,+=,++ (but operator ++ use operator + to help ++ and += too ) 
 
+2. Are the result, r3 and r7, in case#1 and case#2 the same? Why?
+	No they are not,Because case 1 use "new" to make new object but in case 2 it is use operator = it is not make new object
+	but it tranfer data to another object it made before. 
+	เพราะว่า เคสที่สองไม่ได้ใช้คำสั่ง new ในการสร้างคลาสข้อมูลขึ้นมา แต่ว่า ใช้เครื่องหมาย = เพื่อให้ค่าคลาสข้างหลังส่งมาในคลาสข้างหน้าของ = จึงไมได้เพิ่ม cout ให้เพิ่มขึ้น จึงมีค่าน้อยกว่า case1  
 
 ## Expected Output:
 

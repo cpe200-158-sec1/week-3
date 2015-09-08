@@ -24,7 +24,9 @@ many many operators need to be overloaded!!!
 1. Is the number of Fraction objects equal to the 'new' keywords used
    in the 'main' methods? How come?
 2. Are the result, r3 and r7, in case#1 and case#2 the same? Why?
-
+Answer 1: No,,, because operator also run 'new' keywords in overloadning.
+	   2: It the same, because -case#1 make new object r3 and r7 point to r3 
+			                   -case#2 we have 2 object and change r7 point to r3
 
 ## Expected Output:
 

@@ -20,8 +20,8 @@ namespace Lab301
 
 
 
-			Fraction r7 = new Fraction(r3);		// case#1
-//			Fraction r7 = r3;					// case#2
+		Fraction r7 = new Fraction(r3);		// case#1
+		//Fraction r7 = r3;					// case#2
 
 			r7++;
 

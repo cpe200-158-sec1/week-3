@@ -99,7 +99,7 @@ namespace Lab301
 
 		public Fraction(Fraction a)
 		{
-			
+			_Count++;
 			_Denom = a._Denom;
 			_Numer = a._Numer;
 		}

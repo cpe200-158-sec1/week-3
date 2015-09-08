@@ -52,7 +52,7 @@ namespace Lab301
             _Numer = input_Frac.Numer;
             _Denom = input_Frac.Denom;
 
-            _Count += 0;
+            _Count ++;
         }
 
         public Fraction(int numerator, int denominator = 1)

@@ -27,9 +27,9 @@ many many operators need to be overloaded!!!
 
 2. Are the result, r3 and r7, in case#1 and case#2 the same? Why?
 
-Yeah Same because Case#1 use copy Constructors And Case#2 use Equals(=) mathod
-it have same process  case#1   put r3's value to r7 by Constructors
-					  case#2   put r3's value to r7 by =
+Not Same 
+it have same process but  case#1   create new Constructors
+					       case#2   put val to Fraction obj dont make new Fracton
 
 ## Expected Output:
 

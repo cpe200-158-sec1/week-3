@@ -23,7 +23,9 @@ many many operators need to be overloaded!!!
 ## Question?
 1. Is the number of Fraction objects equal to the 'new' keywords used
    in the 'main' methods? How come?
+   : Not equals because in function overloading operator return new fraction that make Count value in Constructors has incresed
 2. Are the result, r3 and r7, in case#1 and case#2 the same? Why?
+   : case 1 run new fraction but case 2 set poiter r7 at the same with r3 (เคส1 รันnew fraction แต่ เคส2 นำr7 มาชี้ที่ตัวแหน่งเดียวกับ r3 )
 
 
 ## Expected Output:

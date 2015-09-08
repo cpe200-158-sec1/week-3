@@ -23,7 +23,11 @@ many many operators need to be overloaded!!!
 ## Question?
 1. Is the number of Fraction objects equal to the 'new' keywords used
    in the 'main' methods? How come?
+   Answer: No, because when we use opertor(+,-) or use new flaction 'fraction''ll be created but 'new' fraction'll create when we declare new fraction only.
+			ไม่, เพราะ เมื่อเราประกาศใช้ operator +,- หรือสร้าง fraction ขึ้นใหม่ จำนวนของ Fraction Obj ก็จะเพิ่มขึ้น แต่ new Fraction จะเพิ่มขึ้นต่อเมื่อเราประกาศสร้าง flaction เท่านั้น
 2. Are the result, r3 and r7, in case#1 and case#2 the same? Why?
+	Answer: No, if we use case#1 it means we created new obj to assign r3's value to r7's.
+				But in case#2 we didn't create any new obj.
 
 
 ## Expected Output:

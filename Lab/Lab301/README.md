@@ -23,8 +23,11 @@ many many operators need to be overloaded!!!
 ## Question?
 1. Is the number of Fraction objects equal to the 'new' keywords used
    in the 'main' methods? How come?
-2. Are the result, r3 and r7, in case#1 and case#2 the same? Why?
+Answer: No, they are not the same. Because the new keyword can use to create temporary objects
+and use for some purposes, that are not to create a new object(by constructors).
 
+2. Are the result, r3 and r7, in case#1 and case#2 the same? Why?
+Answer: No. At the first time, we cloned r3 to create a new object that is r7. After that r7 has been added by 1 (operator++), so r3 is not equal to r7 by then.
 
 ## Expected Output:
 

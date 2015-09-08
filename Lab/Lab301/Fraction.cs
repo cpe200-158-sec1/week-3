@@ -17,7 +17,6 @@ namespace Lab301
             get { return _Numer; }
             set { _Numer = value; }
         }
-
         public int Denom
         {
             get { return _Denom; }
@@ -52,6 +51,7 @@ namespace Lab301
         {
             Numer = f.Numer;
             Denom = f.Denom;
+            Count++;
         }
 
         public Fraction setValue(int n, int d)

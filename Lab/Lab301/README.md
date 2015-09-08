@@ -23,8 +23,9 @@ many many operators need to be overloaded!!!
 ## Question?
 1. Is the number of Fraction objects equal to the 'new' keywords used
    in the 'main' methods? How come?
+   - Yes, It's constuctor that write infrot of method for it's called
 2. Are the result, r3 and r7, in case#1 and case#2 the same? Why?
-
+   - No, It's differrent at Count number. Count number of case#1 > case#2 .
 
 ## Expected Output:
 

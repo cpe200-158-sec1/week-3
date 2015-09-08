@@ -23,11 +23,11 @@ many many operators need to be overloaded!!!
 ## Question?
 1. Is the number of Fraction objects equal to the 'new' keywords used
    in the 'main' methods? How come?
-> Answer: No, they are not the same. Because the new keyword can use to create temporary objects
-and use for some purposes, that are not to create a new object(by constructors).
+> *Answer:* No, they are not equal to each other. Because the new keyword can also use to create temporary objects (increase _count variable too)
+and use for some purposes, that are not to create a new object(by constructors). The number of Fraction objects is not only belong to a number of new keywords.
 
 2. Are the result, r3 and r7, in case#1 and case#2 the same? Why?
-> Answer: No. 
+> *Answer:* No. 
 In the case#1 we use new Fraction(r3) to create a object that has same attributes as r3 and create r7 from this object. So _count will be increased by 1 from using new Fraction.
 In the case#2 we use r7 = r3 that just assign all of the r3's attributes to r7. So the _count variable won't be changed.
 

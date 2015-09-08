@@ -25,7 +25,15 @@ many many operators need to be overloaded!!!
    in the 'main' methods? How come?
 2. Are the result, r3 and r7, in case#1 and case#2 the same? Why?
 
-
+## Answer
+1.ไม่เท่ากัน เพราะในโอเปอเรเตอร์จะมีการเรียกใช้ Fraction Objects เท่ากับจำนวนครั้งของการทำงานของ Constructor
+  Not equal because Operrator'll use Fraction Objects times equal number of Constructor working. 
+2.ไม่เท่ากัน เพราะว่า จาก case#1 ค่าของr7 จะเท่ากับค่าของ r3 ที่ถูกฟังก์ชัน Fraction Objects สร้างขึ้นมาทำให้จำนวนครั้งของการสร้าง Fraction Objects เพิ่มขึ้นมาอีกหนึ่งครั้ง
+					แต่ทว่า case#2 ค่าของr7 จะเท่ากับค่าของ r3 โดยตรง ไม่ผ่านการสร้างจาก Fraction Objects ทำให้จำนวนครั้งของการสร้าง Fraction Objects ไม่เพิ่มขึ้นมา
+					ซึ่งถึงแม้ว่าจำนวนค่าการแสดงผลของcase#1&#2จะเท่ากัน แต่ทว่าความต่างของ case#1&2 ก็คือจะมีค่าของจำนวนครั้งของการสร้าง Fraction Objects ที่ไม่เท่ากัน โดย case#1>case#2 
+  Not equal because case#1 point of r7 equal r3 that Fraction Objects created so time of Fraction Objects up 1 time		
+					but case#2 point of r7 equal r3 directly,Not use Fraction Object created so time of Fraction Objects don't up time
+					which although point of case#1 equal case#2 but time of Fraction Objects not equal by case#1>case#2 
 ## Expected Output:
 
 ***** 3 Fraction objects have been created *****

@@ -70,6 +70,7 @@ namespace Lab301
         {
             Numer = a._Numer;
             Denom = a._Denom;
+           
         }
 
         public Fraction setValue (int a, int b)

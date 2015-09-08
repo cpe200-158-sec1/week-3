@@ -23,7 +23,11 @@ many many operators need to be overloaded!!!
 ## Question?
 1. Is the number of Fraction objects equal to the 'new' keywords used
    in the 'main' methods? How come?
+   : ไม่เท่า เพราะ เมื่อใช้operator(เช่น +,-) จะมีการสร้างFractionใหม่ทุกครั้ง
+   :no,because when use operator;sush as +,-;code will create new Fraction.
 2. Are the result, r3 and r7, in case#1 and case#2 the same? Why?
+   : ไม่เท่ากัน เพราะ case1 สร้าง r7 ที่มีค่าเท่ากับ r3,แต่ case2 สร้าง r7 ให้ชี้ข้อมูลเป็นตัวเดียวกับ r3
+   : they aren't same.because first case that create r7 has value equal r3 ,but case2 that creat r7 point to same data(r3).
 
 
 ## Expected Output:

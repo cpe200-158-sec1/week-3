@@ -4,6 +4,7 @@ namespace Lab301
 {
 	class MainClass
 	{
+
 		public static void Main (string[] args)
 		{
 			Fraction r1 = new Fraction();
@@ -17,8 +18,8 @@ namespace Lab301
 			Fraction r6 = new Fraction(100,50);
 			r6 += r2;
 
-			Fraction r7 = new Fraction(r3);		// case#1
-//			Fraction r7 = r3;					// case#2
+			//Fraction r7 = new Fraction(r3);		// case#1
+            Fraction r7 = r3;					// case#2
 			r7++;
 
 			Console.WriteLine ("***** " + Fraction.Count + " Fraction objects have been created *****");

@@ -23,7 +23,11 @@ many many operators need to be overloaded!!!
 ## Question?
 1. Is the number of Fraction objects equal to the 'new' keywords used
    in the 'main' methods? How come?
+   Answer : No , it's from object creating in overloading part (return value). 
+
 2. Are the result, r3 and r7, in case#1 and case#2 the same? Why?
+	Answer : There are the same because we assign r7's value by created new object that same r3 in case#1
+	and for case#2 , we assign r7 by take value from r3 (do not creat new object.), so their value are the same.  
 
 
 ## Expected Output:

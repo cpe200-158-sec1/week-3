@@ -25,8 +25,8 @@ many many operators need to be overloaded!!!
    in the 'main' methods? How come?
  =	not equal because in operator overloading is run Fraction object too.
 2. Are the result, r3 and r7, in case#1 and case#2 the same? Why?
-=	same	-case#1 make new object r3 and r7 point to r3 
-			-case#2 we have 2 object and change r7 point to r3
+=	not same	-case#1 we create new object
+				-case#2 we don't create new object so case#1 >case2
 
 
 ## Expected Output:

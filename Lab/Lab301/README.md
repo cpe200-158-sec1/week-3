@@ -26,8 +26,9 @@ many many operators need to be overloaded!!!
    : Not equal ,Because when we use Fraction object in operator method is running  Fraction object too.
      ไม่เท่า เพราะว่า การเรียกใช้ Fraction จะใช้ operator ต่างๆ ซึ่งในoperator ก็มีการเรียกใช้ Fraction อยู่ด้วยทำให้จำนวนไม่เท่ากัน
 2. Are the result, r3 and r7, in case#1 and case#2 the same? Why?
-	: equal ,Because we build new Fraction(r3) with r3  so  Fraction(r3) = r3 ##  case#1 = case#2
-	: เท่า เพราะ เคส 1 คือการสร้างFraction(r3)ใหม่ด้วยตัวแปรของ r3 ฉนั้น  Fraction(r3) = r3 ## เคส 1 จึงเท่ากับ เคส 2
+	:Not same because case#1 we need to create new object but case#2 we don't create new object.
++			So case#1 is more than case#2
+	
 
 
 ## Expected Output:

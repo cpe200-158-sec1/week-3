@@ -1,8 +1,8 @@
 ﻿# Implement the Fraction class according to the following requirements:
 
 ## Propeties:
-- Numer: Numerator
-- Denom: Denominator (default=1, cannot be 0)
+- Numer: Numerator//เศษ
+- Denom: Denominator (default=1, cannot be 0)//ส่วน
 - Count: counting #objects of this class (static)
 Note: Numerator and Denominator have to in the minimal form.
       See r3 and r6.
@@ -18,12 +18,14 @@ note: increment the Count property when an object is created
 - GCD: calculate Greatest Common Divisor of two integers (static)
 
 ## Operator Overloading:
-many many operators need to be overloaded!!! 
+many many operators need to be overloaded!!! //24
 
 ## Question?
 1. Is the number of Fraction objects equal to the 'new' keywords used
    in the 'main' methods? How come?
+   =not equal , they effect by constructor.
 2. Are the result, r3 and r7, in case#1 and case#2 the same? Why?
+   = no because #case1 will build new Fraction but #case2 will replace in this Fraction.(count #case1 > count #case2)
 
 
 ## Expected Output:

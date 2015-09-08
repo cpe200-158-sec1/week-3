@@ -23,8 +23,14 @@ many many operators need to be overloaded!!!
 ## Question?
 1. Is the number of Fraction objects equal to the 'new' keywords used
    in the 'main' methods? How come?
-2. Are the result, r3 and r7, in case#1 and case#2 the same? Why?
+	Ans: ไม่เท่า เพราะ นับตามจำนวนที่เรียกใช้ฟังชั่น Fraction(),Fraction(Fraction i),Fraction(int i, int j),Fraction(int i) ซึ่งใน oparetor ต่างๆ มีการเรียกใช้ด้วย
+		
+		[NO because it's count by running [Fraction(),Fraction(Fraction i),Fraction(int i, int j),Fraction(int i)] which the oparetor is runing that]
 
+2. Are the result, r3 and r7, in case#1 and case#2 the same? Why?
+	Ans:  เท่ากัน เพราะ new Fraction(r3) เท่ากับ r3 ดังนั้น ทั้ง case#1 , case#2 จึงมีค่าเท่ากัน 
+		
+		[Yes because new Fraction(r3) equal r3 that case#1 and case#2 is same thing]
 
 ## Expected Output:
 

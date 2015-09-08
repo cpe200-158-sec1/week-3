@@ -25,7 +25,7 @@ many many operators need to be overloaded!!!
    in the 'main' methods? How come?
    Answer : NO, it's equal to the number of times that we use constructors.
 2. Are the result, r3 and r7, in case#1 and case#2 the same? Why?
-   Answer : If we try to make new Fraction by assign r3's value to it, means new Fraction will be equal to r3's value, that will same to assign r3's value to r7's, too.
+   Answer : Not same because when we use case#1, we need to creat new object for assign r3's value to. But if we use case#2, we do not create new object. So that can tell we why number of objects when we use case#1 is more than case#2. 
 
 
 ## Expected Output:

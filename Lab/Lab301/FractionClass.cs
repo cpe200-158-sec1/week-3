@@ -51,6 +51,7 @@ namespace Lab301
         {
             numer = a.numer;
             denom = a.denom;
+            Count++;
         }
 
         public Fraction setValue(int a, int b)

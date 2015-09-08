@@ -23,8 +23,13 @@ many many operators need to be overloaded!!!
 ## Question?
 1. Is the number of Fraction objects equal to the 'new' keywords used
    in the 'main' methods? How come?
+   not same because
+   -number of fraction objects is Count operation of Constructors. (จะนับแค่จำนวนการทำงานของ Constructors )
+   -new is use create a new fraction only (new จะนับแค่ตอนสร้างfractionใหม่)
 2. Are the result, r3 and r7, in case#1 and case#2 the same? Why?
-
+ 
+   Not same because case#1  create new object but case#2  don't create new object.
+	
 
 ## Expected Output:
 

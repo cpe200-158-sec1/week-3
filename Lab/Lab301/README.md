@@ -25,7 +25,7 @@ many many operators need to be overloaded!!!
    in the 'main' methods? How come?
    Answer: No,it isn't.Because 'new' keywords isn't only way to create a new object and we can 'new' keywords to create a temporary object. 
 2. Are the result, r3 and r7, in case#1 and case#2 the same? Why?
-	Answer: No,they aren't.Because in case1 it's different position but in case2 it's same position.
+	Answer: No,they aren't.Because in case1 r7 create new object but in case2 r7 point to same position with r3.
 
 ## Expected Output:
 

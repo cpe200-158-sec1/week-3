@@ -9,8 +9,7 @@ namespace Lab301
 			Fraction r1 = new Fraction();
 			Fraction r2 = new Fraction(2);
 			Fraction r3 = new Fraction(3,9);
-
-			Console.WriteLine ("***** " + Fraction.Count + " Fraction objects have been created *****");
+            Console.WriteLine ("***** " + Fraction.Count + " Fraction objects have been created *****");
 
 			Fraction r4 = r1+r2;
 			Fraction r5 = r2-r3;
@@ -39,7 +38,7 @@ namespace Lab301
 			Console.WriteLine (r9);
 
 			Console.WriteLine (r2==r4);
-			Console.WriteLine (r4.Equals (r2)); // Equals method must be overriden
+			Console.WriteLine (r4.Equals(r2)); // Equals method must be overriden
 			Console.WriteLine (r2!=r4);
 
 			r3.setValue (10,12/3*0);
@@ -49,7 +48,7 @@ namespace Lab301
 
 			Console.WriteLine("GCD of 3650 and 360: " + Fraction.GCD (3650,360));
 			Console.WriteLine("GCD of 3600 and 360: " + Fraction.GCD (3600,360));
-
+            Console.ReadKey();
 		}
 	}
 }

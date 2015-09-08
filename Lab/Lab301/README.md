@@ -23,8 +23,13 @@ many many operators need to be overloaded!!!
 ## Question?
 1. Is the number of Fraction objects equal to the 'new' keywords used
    in the 'main' methods? How come?
+   No....   it equal 'Fraction' keywords because when obj(Fraction) was Implement number of  Fraction objects ++
+
 2. Are the result, r3 and r7, in case#1 and case#2 the same? Why?
 
+Not Same 
+it have same process but  case#1   create new Constructors
+					       case#2   put val to Fraction obj dont make new Fracton
 
 ## Expected Output:
 

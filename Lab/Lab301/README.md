@@ -23,8 +23,9 @@ many many operators need to be overloaded!!!
 ## Question?
 1. Is the number of Fraction objects equal to the 'new' keywords used
    in the 'main' methods? How come?
+   - No because amount of fraction isn't equal amount of constructors.
 2. Are the result, r3 and r7, in case#1 and case#2 the same? Why?
-
+	- No because code in case#1 create new object,count increase one time but code in case#2 isn't count.
 
 ## Expected Output:
 

@@ -27,7 +27,7 @@ many many operators need to be overloaded!!!
 
 
 ## Expected Output:
-
+``` 
 ***** 3 Fraction objects have been created *****
 ***** 8 Fraction objects have been created *****
 ***** 12 Fraction objects have been created *****
@@ -47,4 +47,4 @@ False
 ***** 12 Fraction objects have been created *****
 GCD of 3650 and 360: 10
 GCD of 3600 and 360: 360
-
+``` 

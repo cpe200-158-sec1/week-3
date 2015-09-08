@@ -30,7 +30,7 @@ many many operators need to be overloaded!!!
 
 	Answer : There are not the same because we assign r7's value by created new object that same r3 in case#1
 	and for case#2,we assign r7 by take value from r3 (do not creat new object). so _Count in case#1 are more
-	than case#2.  
+	than case#2 .  
 
 
 

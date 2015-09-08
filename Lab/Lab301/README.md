@@ -23,7 +23,10 @@ many many operators need to be overloaded!!!
 ## Question?
 1. Is the number of Fraction objects equal to the 'new' keywords used
    in the 'main' methods? How come?
+   ไม่เท่ากัน เพราะว่า จำนวนของ fraction ไม่เท่ากับจำนวนครั้งที่เราใช้ constructor 
 2. Are the result, r3 and r7, in case#1 and case#2 the same? Why?
+	ไม่เท่ากันเพราะ เคสแรกมีการสร้าง fraction ขึ้นมาใหม่ แต่เคสสองเป็นการ copy object มาเลย
+
 
 
 ## Expected Output:

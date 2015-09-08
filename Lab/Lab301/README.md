@@ -23,8 +23,13 @@ many many operators need to be overloaded!!!
 ## Question?
 1. Is the number of Fraction objects equal to the 'new' keywords used
    in the 'main' methods? How come?
+   No....   it equal 'Fraction' keywords because when obj(Fraction) was Implement number of  Fraction objects ++
+
 2. Are the result, r3 and r7, in case#1 and case#2 the same? Why?
 
+Yeah Same because Case#1 use copy Constructors And Case#2 use Equals(=) mathod
+it have same process  case#1   put r3's value to r7 by Constructors
+					  case#2   put r3's value to r7 by =
 
 ## Expected Output:
 

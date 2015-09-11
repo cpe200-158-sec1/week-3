@@ -26,7 +26,7 @@ many many operators need to be overloaded!!!
    ขึ้นอยู่กับจำนวน new object เป็นการสร้าง object ขึ้นมา เเละเมื่อเราใช้คำสั่ง += จะมีการสร้าง object ขึ้นมาด้วย
 2. Are the result, r3 and r7, in case#1 and case#2 the same? Why?
 ไม่เหมือน เพราะ case 1 r3 กับ r7 เป็น object คนละตัว เเต่ case 2 เป็น object เดียวกัน
-
+ 
 ## Expected Output:
 
 ***** 3 Fraction objects have been created *****

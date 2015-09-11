@@ -23,8 +23,9 @@ many many operators need to be overloaded!!!
 ## Question?
 1. Is the number of Fraction objects equal to the 'new' keywords used
    in the 'main' methods? How come?
+   answer:not equal because  there are two fractions that created by combine two others fractions together.
 2. Are the result, r3 and r7, in case#1 and case#2 the same? Why?
-
+   answer:no, because case # 1 we create new frations for receiving value from other fraction.  case #2 we instead r3 in r7
 
 ## Expected Output:
 

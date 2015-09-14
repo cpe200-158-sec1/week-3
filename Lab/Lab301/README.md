@@ -23,7 +23,9 @@ many many operators need to be overloaded!!!
 ## Question?
 1. Is the number of Fraction objects equal to the 'new' keywords used
    in the 'main' methods? How come?
+   It doesn't equal because in some function, object have created in function's they were. 
 2. Are the result, r3 and r7, in case#1 and case#2 the same? Why?
+   It's different because in case 1 is to create new object but in case 2 doesn't create new object but it will point to the old object that have created before. 
 
 
 ## Expected Output:

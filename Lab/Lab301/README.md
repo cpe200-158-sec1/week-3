@@ -18,12 +18,14 @@ note: increment the Count property when an object is created
 - GCD: calculate Greatest Common Divisor of two integers (static)
 
 ## Operator Overloading:
-many many operators need to be overloaded!!! 
+many many operators need to be overloaded !!!
 
 ## Question?
 1. Is the number of Fraction objects equal to the 'new' keywords used
    in the 'main' methods? How come?
+   Ans : No becuase it used function overloading then return be new  .
 2. Are the result, r3 and r7, in case#1 and case#2 the same? Why?
+	Ans : not same because  r3 builded new object but r7 is point to storage at same position with r3. 
 
 
 ## Expected Output:

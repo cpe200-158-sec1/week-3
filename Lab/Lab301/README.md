@@ -23,7 +23,10 @@ many many operators need to be overloaded!!!
 ## Question?
 1. Is the number of Fraction objects equal to the 'new' keywords used
    in the 'main' methods? How come?
+ =	not equal because in operator overloading is run Fraction object too.
 2. Are the result, r3 and r7, in case#1 and case#2 the same? Why?
+=	not same	-case#1 we create new object
+				-case#2 we don't create new object so case#1 >case2
 
 
 ## Expected Output:

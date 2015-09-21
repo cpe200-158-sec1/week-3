@@ -23,8 +23,13 @@ many many operators need to be overloaded!!!
 ## Question?
 1. Is the number of Fraction objects equal to the 'new' keywords used
    in the 'main' methods? How come?
+
+   Answer : No, it isn't. Because you can create object in method by using word 'new'.
+
 2. Are the result, r3 and r7, in case#1 and case#2 the same? Why?
 
+   Answer : No, there aren't the same. Case#1 create new object (create r7 by use value of r3).
+			Case#2 doesn't create new object but point to old object before (point r7 to r3).
 
 ## Expected Output:
 
